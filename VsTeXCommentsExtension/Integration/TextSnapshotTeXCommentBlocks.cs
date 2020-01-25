@@ -22,12 +22,12 @@ namespace VsTeXCommentsExtension.Integration
 
         public static readonly Dictionary<string, string> TeXCommentPrefixPerContentType = new Dictionary<string, string>()
         {
-            { "CSharp", "//tex:" },
-            { "F#", "//tex:" },
-            { "C/C++", "//tex:" },
-            { "Basic", "'tex:" },
-            { "Python", "#tex:" },
-            { "R", "#tex:" },
+            { "CSharp", "// tex:" },
+            { "F#", "// tex:" },
+            { "C/C++", "// tex:" },
+            { "Basic", "' tex:" },
+            { "Python", "# tex:" },
+            { "R", "# tex:" },
         };
 
         public static readonly char[] WhiteSpaces = new char[] { ' ', '\t' };
